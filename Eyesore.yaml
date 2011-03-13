@@ -1,0 +1,57 @@
+# All colors must be in the form of '#rrggbb' or '#rgb'.
+# You cannot use color names.
+
+log-view:
+  font-family: 'Monaco'
+  font-size: 12.0
+  nickname-format: '%n > '
+  scroller-highlight-color: '#47b3bf'
+input-text:
+  font-family: 'Monaco'
+  font-size: 12.0
+  background-color: '#2d2d2d'
+  color: '#dadada'
+  selected:
+    background-color: '#ccc'
+member-list:
+  font-family: 'Monaco'
+  font-size: 12.0
+  color: '#ccc'
+  background-color: '#2d2d2d'
+  operator:
+    color: '#000'
+  selected:
+    color: '#fff'
+    background:
+      # gradient
+      top-line-color: '#777777'
+      bottom-line-color: '#414141'
+      top-color: '#6f6f6f'
+      bottom-color: '#484848'
+server-tree:
+  font-family: 'Monaco'
+  font-size: 12.0
+  background-color: '#2d2d2d'
+  highlight:
+    color: '#ccc'
+    font-weight: bold;
+  newtalk:
+    color: '#58e4f4'
+  unread:
+    color: '#47b3bf'
+  normal:
+    active:
+      color: '#dadada'
+    inactive:
+      color: '#ccc'
+  selected:
+    active:
+      color: '#fff'
+    inactive:
+      color: '#888'
+    background:
+      # gradient
+      top-line-color: '#777777'
+      bottom-line-color: '#414141'
+      top-color: '#6f6f6f'
+      bottom-color: '#484848'
