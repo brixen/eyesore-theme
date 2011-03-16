@@ -4,7 +4,7 @@
 log-view:
   font-family: 'Monaco'
   font-size: 12.0
-  nickname-format: '%n > '
+  nickname-format: '%n: '
   scroller-highlight-color: '#47b3bf'
 input-text:
   font-family: 'Monaco'
@@ -19,7 +19,7 @@ member-list:
   color: '#ccc'
   background-color: '#2d2d2d'
   operator:
-    color: '#000'
+    color: '#cac859'
   selected:
     color: '#fff'
     background:
@@ -33,7 +33,7 @@ server-tree:
   font-size: 12.0
   background-color: '#2d2d2d'
   highlight:
-    color: '#ccc'
+    color: '#cac859'
     font-weight: bold;
   newtalk:
     color: '#58e4f4'
